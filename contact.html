@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body bgcolor="gray">
+<body-text="blue">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+</style>
+</head>
+<body>
+<center>
+<h2>We'd love to hear from you</h2>
+<p>GET IN TOUCH</p></center>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>For any quries leave us a message</p>
+  </div>
+  <div class="row">
+    <div class="column"><p>
+      <img src="C:\Users\asisp\OneDrive\Desktop\Project\Hospital website\hospital website\image\email.jpg" style="width:7%">&nbsp;&nbsp;asispattanaik11@gmail.com<br><br><br><br><br><br>
+<img src="C:\Users\asisp\OneDrive\Desktop\Project\Hospital website\hospital website\image\call.jfif" style="width:6%">&nbsp;&nbsp;@7790003523<br><br><br><br><br><br>
+<img src="C:\Users\asisp\OneDrive\Desktop\Project\Hospital website\hospital website\image\wp.jfif" style="width:7%">&nbsp;&nbsp;@7790003523<br><br></p>
+    </div>
+    <div class="column">
+      
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+        <label for="country">CITY</label>
+        <select id="country" name="country">
+          <option value="canada">SELECT</option>
+          <option value="australia">AHEMDABAD</option>
+          <option value="canada">AGRA</option>
+<option value="canada">BHUBANESWAR</option>
+<option value="canada">CUTTACK</option>
+<option value="canada">PUNE</option>
+<option value="canada">MUMBAI</option>
+<option value="canada">CHENNAI</option>
+<option value="canada">DELHI</option>
+<option value="canada">HYDERABAD</option>
+<option value="canada">JAIPUR</option>
+<option value="canada">BANGLORE</option>
+<option value="canada">KOTA</option>
+<option value="usa">MYSORE</option>
+<option value="canada">OTHER</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+<div class="credit"> created by <span>Asis Pattanaik</span> | All Rights Reserved </div>
+
+</body>
+</html>
